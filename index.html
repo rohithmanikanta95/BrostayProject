@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X7KL020360"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-X7KL020360');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrueInfo - Rooms/PG's Near Your College</title>
+    <link rel="icon" href="Logo.jpeg" type="image/jpeg">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="data.js"></script> 
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="Logo.jpeg" alt="BroStay Logo" class="logo-img">
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Find ROOMS / PG's Near Your College!</h1>
+            <p>Owner-verified rooms and PGs trusted by students near your college</p>
+            
+            <b><p>Near Thandhalam, chettiped, MevalurKuppam,EVP cinemas</p></b>
+        </div>
+    </section>
+
+    <!-- BUTTONS -->
+    <section class="features">
+        <div class="feature-grid">
+            <div class="feature-item" id="roomsBtn">
+                <h5>View Rooms</h5>
+                <span class="simple-arrow">→</span>
+            </div>
+
+            <div class="feature-item" id="pgsBtn">
+                <h5>View PG's</h5>
+                <span class="simple-arrow">→</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- DETAILS -->
+    <div id="detailsSection" class="details-section">
+        <h3 id="detailsHeading"></h3>
+        <div id="detailsContainer" class="details-container"></div>
+    </div>
+
+    <!-- IMAGE -->
+    <div class="image-section">
+        <img src="image.png" alt="Student searching room">
+    </div>
+
+    <!-- FEEDBACK -->
+    <section class="feedback">
+        <div class="feedback-container">
+            <!-- Q1 -->
+            <div class="feedback-item" id="feedbackItemQ1">
+                <p>Is this website helpful to you?</p>
+                <div class="feedback-options" id="feedbackQ1">
+                    <button class="feedback-btn" data-answer="yes" onclick="trackFeedback('helpful', 'yes', this)">Yes</button>
+                    <button class="feedback-btn" data-answer="no" onclick="trackFeedback('helpful', 'no', this)">No</button>
+                </div>
+            </div>
+
+            <!-- Q2 -->
+            <div class="feedback-item" id="feedbackItemQ2">
+                <p>What should we add next? <span class="optional">(Optional)</span></p>
+                <div class="feedback-input-group">
+                    <input type="text" class="feedback-input" id="feedbackQ2" placeholder="Your suggestion...">
+                    <button id="submitFeedbackQ2" class="feedback-submit-btn">Submit</button>
+                </div>
+            </div>
+
+            <!-- Q3 -->
+            <div class="feedback-item" id="feedbackItemQ3">
+                <p>Are you a student?</p>
+                <div class="feedback-options" id="feedbackQ3">
+                    <button class="feedback-btn" data-answer="yes" onclick="trackFeedback('student', 'yes', this)">Yes</button>
+                    <button class="feedback-btn" data-answer="no" onclick="trackFeedback('student', 'no', this)">No</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact">
+        <button id="contactBtn">Contact Us</button>
+
+        <div id="contactForm" class="contact-form" style="display: none;">
+            <span id="closeForm">&times;</span>
+            <h2>Contact Us</h2>
+            <form name="contact" method="POST" data-netlify="true">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 BroStay</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
