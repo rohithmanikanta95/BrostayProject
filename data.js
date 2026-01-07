@@ -43,7 +43,7 @@ const roomsData = [
         name: "KG",
         gender: "Men/Women",
         location: "https://share.google/hURbXCLqDJpTKbNQh",
-        contact: "8608009401",
+        contact: "Not specified",
         price: "based on owner",
         type: "1BHK, 2BHK",
         limit: "Not specified",
@@ -84,10 +84,10 @@ const roomsData = [
         gender: "Men/Women",
         location: "https://maps.app.goo.gl/6pzNfWzjxLmQKQAx6?g_st=aw",
         contact: "Not specified",
-        price: "Not specified",
-        type: "Not specified",
+        price: "₹19,000 - ₹25,000 (2BHK, 3BHK)",
+        type: "2BHK, 3BHK", 
         limit: "Not specified",
-        advance: "Based on Owner"
+        advance: "₹80,000 to ₹1 Lakh"
     }
 ];
 
@@ -181,3 +181,4 @@ const pgsData = [
         food: "2 times on weekdays, 3 times on weekend"
     }
 ];
+
