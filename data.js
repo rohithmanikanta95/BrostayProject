@@ -1,5 +1,4 @@
 const roomsData = [
-    
     {
         name: "AKY's PG/Rooms",
         gender: "Men",
@@ -201,7 +200,5 @@ const pgsData = [
         limit: "6 sharing",
         advance: "₹10,000",
         food: "2 times on weekdays, 3 times on weekend"
-    },
-    
+    }
 ];
-
