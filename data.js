@@ -1,4 +1,5 @@
 const roomsData = [
+    
     {
         name: "AKY's PG/Rooms",
         gender: "Men",
@@ -20,7 +21,7 @@ const roomsData = [
         advance: "₹30,000 per room"
     },
     {
-        name: "Sai Ram Apartments",
+        name: "Sri Ram Apartments",
         gender: "Men",
         location: "https://maps.app.goo.gl/UmsU12w2TnsuVUGF6",
         contact: "8667411120",
@@ -88,10 +89,31 @@ const roomsData = [
         type: "2BHK, 3BHK", 
         limit: "Not specified",
         advance: "₹80,000 to ₹1 Lakh"
+    },
+    {
+        name: "Mevaluru kuppam rooms",
+        gender: "Men",
+        location: "https://maps.app.goo.gl/CkgjVnzo6Rc48KBVA?g_st=aw",
+        contact: "9171529650",
+        price: "₹15,000 (5 sharing) / ₹20,000 (8 sharing)",
+        type: "Rooms",
+        limit: "5 sharing / 8 sharing",
+        advance: "₹30,000 (5 sharing) / ₹50,000 (8 sharing)"
     }
 ];
 
 const pgsData = [
+    {
+        name: "Santhoshi PG",
+        gender: "Men",
+        location: "https://maps.app.goo.gl/Zx7MFVQnjkciVio77?g_st=aw",
+        contact: "8106602565 / 9381449295",
+        price: "₹8,500",
+        type: "1BHK, 2BHK",
+        limit: "2, 3, 4, 5 (1BHK), 6 & 7(2BHK) sharing",
+        advance: "₹10,000",
+        food: "3 times everyday"
+    },
     {
         name: "VASISHTHA MENS PG(1)",
         gender: "Men",
@@ -179,6 +201,7 @@ const pgsData = [
         limit: "6 sharing",
         advance: "₹10,000",
         food: "2 times on weekdays, 3 times on weekend"
-    }
+    },
+    
 ];
 
